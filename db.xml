@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<root version="3.0">
+	<calendar>
+		<base static="true">
+			<MKgregorian>
+				<name type="string">Example 4 - Gregorian</name>
+				<setting type="string">Any</setting>
+				<lunardaycalc type="string">MKgregorian</lunardaycalc>
+				<lunarweek>
+					<day1 type="string">Sunday</day1>
+					<day2 type="string">Monday</day2>
+					<day3 type="string">Tuesday</day3>
+					<day4 type="string">Wednesday</day4>
+					<day5 type="string">Thursday</day5>
+					<day6 type="string">Friday</day6>
+					<day7 type="string">Saturday</day7>
+				</lunarweek>
+				<periodvarcalc type="string">MKgregorian</periodvarcalc>
+				<periods>
+					<period1>
+						<days type="number">31</days>
+						<holidays>
+							<holiday1>
+								<duration type="number">1</duration>
+								<name type="string">New Year</name>
+								<startday type="number">1</startday>
+							</holiday1>
+						</holidays>
+						<name type="string">January</name>
+					</period1>
+					<period2>
+						<days type="number">28</days>
+						<name type="string">February</name>
+					</period2>
+					<period3>
+						<days type="number">31</days>
+						<name type="string">March</name>
+					</period3>
+					<period4>
+						<days type="number">30</days>
+						<name type="string">April</name>
+					</period4>
+					<period5>
+						<days type="number">31</days>
+						<name type="string">May</name>
+					</period5>
+					<period6>
+						<days type="number">30</days>
+						<name type="string">June</name>
+					</period6>
+					<period7>
+						<days type="number">31</days>
+						<name type="string">July</name>
+					</period7>
+					<period8>
+						<days type="number">31</days>
+						<name type="string">August</name>
+					</period8>
+					<period9>
+						<days type="number">30</days>
+						<name type="string">September</name>
+					</period9>
+					<period10>
+						<days type="number">31</days>
+						<name type="string">October</name>
+					</period10>
+					<period11>
+						<days type="number">30</days>
+						<name type="string">November</name>
+					</period11>
+					<period12>
+						<days type="number">31</days>
+						<holidays>
+							<holiday1>
+								<duration type="number">1</duration>
+								<name type="string">Christmas</name>
+								<startday type="number">25</startday>
+							</holiday1>
+						</holidays>
+						<name type="string">December</name>
+					</period12>
+				</periods>
+			</MKgregorian>
+		</base>
+	</calendar>
+</root>
