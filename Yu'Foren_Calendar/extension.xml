@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<root version="1.0">
+	<properties>
+		<name>Yu'Foren</name>
+		<version>1.0</version>
+		<author>Alex</author>
+		<ruleset>Any</ruleset>
+		<description>
+			Extension for Yu'Foren
+		</description>
+	</properties>
+	<base>
+	    <script name="Yu'Foren" file="Yuforen_Calendar.lua" />
+	</base>
+</root>
