@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<root version="3.0">
+	<calendar>
+		<base static="true">
+			<YuForen>
+				<name type="string">Yu'Foren</name>
+					<setting type="string">Any</setting>
+					<lunardaycalc type="string">MKyuforen</lunardaycalc>
+					<lunarweek>
+						<day1 type="string">Yun-Ti</day1>
+						<day2 type="string">Fueg-Ti</day2>
+						<day3 type="string">Raegar-Ti</day3>
+						<day4 type="string">Nolphar-Ti</day4>
+						<day5 type="string">Juntar-Ti</day5>
+						<day6 type="string">Yu'For-Ti</day6>
+					</lunarweek>
+					<periods>
+						<period1>
+							<days type="number">34</days>
+							<holidays>
+								<holiday1>
+									<duration type="number">1</duration>
+									<name type="string">Summer Solstice</name>
+									<startday type="number">13</startday>
+								</holiday1>
+							</holidays>
+							<name type="string">Restruun</name>
+						</period1>
+						<period2>
+							<days type="number">38</days>
+							<name type="string">Destrum</name>
+						</period2>
+						<period3>
+							<days type="number">39</days>
+							<holidays>
+								<holiday1>
+									<duration type="number">1</duration>
+									<name type="string">Autumn Equinox</name>
+									<startday type="number">12</startday>
+								</holiday1>
+							</holidays>
+							<name type="string">Epochium</name>
+						</period3>
+						<period4>
+							<days type="number">33</days>
+							<name type="string">Kalena</name>
+						</period4>
+						<period5>
+							<days type="number">36</days>
+							<holidays>
+								<holiday1>
+									<duration type="number">3</duration>
+									<name type="string">Winter's Crest</name>
+									<startday type="number">24</startday>
+								</holiday1>
+							</holidays>
+							<name type="string">Hardar</name>
+						</period5>
+						<period6>
+							<days type="number">37</days>
+							<name type="string">Velden</name>
+						</period6>
+						<period7>
+							<days type="number">35</days>
+							<name type="string">Belcar</name>
+						</period7>
+						<period8>
+							<days type="number">40</days>
+							<holidays>
+								<holiday1>
+									<duration type="number">1</duration>
+									<name type="string">Beginning of Spring</name>
+									<startday type="number">19</startday>
+									
+								</holiday1>
+							</holidays>
+							<name type="string">Numen</name>
+						</period8>
+						<period9>
+							<days type="number">32</days>
+							<name type="string">Pelca</name>
+						</period9>
+						<period10>
+							<days type="number">36</days>
+							<name type="string">Shr'a</name>
+						</period10>
+					</periods>
+			</YuForen>
+		</base>
+	</calendar>
+</root>
+
+
+
